@@ -1,8 +1,8 @@
 {
-  "name": "modern-ME-Robot",
+  "name": "WorldWideBooksList",
   "version": "0.1.0",
-  "description": "mastery exercise",
-  "main": "dist/app.js",
+  "description": "Exercise",
+  "main": "app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,6 @@
     "angular": "^1.6.0-rc.2",
     "bootstrap": "^3.3.7",
     "grunt": "^1.0.1",
-    "grunt-browserify": "^5.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
