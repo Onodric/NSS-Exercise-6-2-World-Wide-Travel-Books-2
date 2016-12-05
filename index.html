@@ -5,9 +5,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Angular Book List</title>
-    <link rel="stylesheet" href="dist/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/node_modules/angular/angular.min.js"></script>
     <link rel="author" href="humans.txt">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -29,10 +32,10 @@
         <p>&copy; 2016 BookPoop</p>
       </footer>
     </div>
-    <script src="dist/js/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="lib/node_modules/angular/angular.min.js"></script>
     <script src="app/app.js"></script>
+<!-- Factories -->
+    <script src="app/factories/guideFactory.js" ></script>
+<!-- Controllers -->
     <script src="app/controllers/bookCtrl.js" ></script>
   </body>
 </html>
